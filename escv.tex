@@ -1,0 +1,271 @@
+\documentclass[11pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+\listfiles
+
+% moderncv themes
+\moderncvstyle{casual}                        % style options are 'casual' (default) and 'classic' 
+\moderncvcolor{grey}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\definecolor{color1}{RGB}{225, 64, 0}
+
+\usepackage[scale=0.75]{geometry}
+\setlength{\hintscolumnwidth}{3.5cm}           % if you want to change the width of the column with the dates
+\usepackage[utf8]{inputenc}       
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+
+% fix name clash of firstname with bibtex
+% http://tex.stackexchange.com/questions/18541/two-conflicting-packages-in-one-document-doable
+\usepackage{savesym}
+\savesymbol{firstname}
+
+\usepackage[backend=biber, 
+    bibencoding=utf8, 
+    style=authoryear,
+    sorting=ydnt, 
+    dashed=false, 
+    defernumbers=true, 
+    doi=false,
+    url=false,
+    isbn=false,%
+    hyperref=auto,%
+    maxbibnames=99,     % all namesd in biobilography
+    maxcitenames=3,     % max three names in citation
+    giveninits=true,     % render all first and middle names as initials.  
+    uniquename=init]{biblatex}
+\AtEveryBibitem{\clearfield{note}}    % clears notes
+% increase space between entries in bibliography
+\setlength{\bibitemsep}{0.25em} 
+
+
+\addbibresource[label=papers]{papers.bib}
+\addbibresource[label=posters]{posters.bib}
+
+% Code to make  Szöcs Bold, see
+% http://tex.stackexchange.com/questions/73136/make-specific-author-bold-using-biblatex/usepackage%7Bxpatch%7D
+\def\makenamesetup{%
+  \def\bibnamedelima{~}%
+  \def\bibnamedelimb{ }%
+  \def\bibnamedelimc{ }%
+  \def\bibnamedelimd{ }%
+  \def\bibnamedelimi{ }%
+  \def\bibinitperiod{.}%
+  \def\bibinitdelim{~}%
+  \def\bibinithyphendelim{.-}}    
+\newcommand*{\makename}[2]{\begingroup\makenamesetup\xdef#1{#2}\endgroup}
+
+\newcommand*{\boldname}[3]{%
+  \def\lastname{#1}%
+  \def\firstname{#2}%
+  \def\firstinit{#3}}
+\boldname{}{}{}
+% Patch new definitions
+\renewcommand{\mkbibnamegiven}[1]{%
+  \makename{\currname}{#1}%
+  \makename{\findname}{\firstname}%
+  \makename{\findinit}{\firstinit}%
+  \ifboolexpr{ test {\ifdefequal{\currname}{\findname}}%
+    or test {\ifdefequal{\currname}{\findinit}} }%
+  {\mkbibbold{#1}}{#1}%
+}
+\renewcommand{\mkbibnamefamily}[1]{%
+  \makename{\currname}{#1}%
+  \makename{\findname}{\lastname}%
+  \ifboolexpr{ test {\ifdefequal{\currname}{\findname}} }%
+  {\mkbibbold{#1}}{#1}%
+}
+
+
+
+% removes pagination (p./pp.) before page numbers
+\DeclareFieldFormat{pages}{#1}
+% title for posters like title for publications.
+\DeclareFieldFormat[misc]{title}{''#1''}
+% remove 'In:' before journal names
+% source: http://tex.stackexchange.com/questions/10682/suppress-in-biblatex
+\renewbibmacro{in:}{%
+  \ifentrytype{article}{}{\printtext{\bibstring{in}\intitlepunct}}}
+% format volume and number as Volume(Number)
+% source http://tex.stackexchange.com/questions/81569/biblatex-parentheses-around-the-volume-number-of-an-article#81573
+\renewbibmacro*{volume+number+eid}{%
+  \printfield{volume}%
+%  \setunit*{\adddot}% DELETED
+  \setunit*{\addnbthinspace}% NEW (optional); there's also \addnbspace
+  \printfield{number}%
+  \setunit{\addcomma\space}%
+  \printfield{eid}}
+\DeclareFieldFormat[article]{number}{\mkbibparens{#1}}
+
+% move year directly after authors
+\DeclareNameAlias{sortname}{first-last}
+\DeclareFieldFormat{labelnumberwidth}{\mkbibbrackets{#1}}
+\defbibenvironment{bibliography}
+  {\list
+     {\printtext[labelnumberwidth]{%
+    \printfield{prefixnumber}%
+    \printfield{labelnumber}}}
+     {\setlength{\labelwidth}{\labelnumberwidth}%
+      \setlength{\leftmargin}{\labelwidth}%
+      \setlength{\labelsep}{\biblabelsep}%
+      \addtolength{\leftmargin}{\labelsep}%
+      \setlength{\itemsep}{\bibitemsep}%
+      \setlength{\parsep}{\bibparsep}}%
+      \renewcommand*{\makelabel}[1]{\hss##1}}
+  {\endlist}
+  {\item}
+
+
+%%% ---------------------------------------------------------------------------
+% personal data
+\origfirstname{Dr. Eduard}
+\familyname{Sz\"ocs}
+\address{Marktplatz 6}{67433 Neustadt an der Weinstraße}    % optional, remove the line if not wanted
+\phone{+49~176~621~927~00}                      % optional, remove the line if not wanted
+\email{eduardszoecs@posteo.de}                          % optional, remove the line if not wanted
+\homepage{https://edild.github.io}                    % optional, remove the line if not wanted
+% \photo[100pt][0.4pt]{pic_small.jpg}                  % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+
+
+% % Photo on the right side
+\makeatletter
+%\AtBeginDocument
+%{
+% reverse the name and photo
+\renewcommand*{\makecvtitle}{%
+  \recomputecvlengths%
+  \makecvfoot%
+  % define optional picture
+  \newbox{\makecvtitlepicturebox}%
+  \savebox{\makecvtitlepicturebox}{%
+    \ifthenelse{\isundefined{\@photo}}%
+      {
+        \@initializelength{\makecvtitlepicturewidth}% Damit Länge bekannt bei Name
+        \settowidth{\makecvtitlepicturewidth}{0pt}%
+      }%
+      {%
+       \setlength\fboxrule{\@photoframewidth}%
+       \ifdim\@photoframewidth=0pt%
+         \setlength{\fboxsep}{0pt}\fi%
+       {\color{color1}\framebox{\includegraphics[width=\@photowidth]{\@photo}}}}
+        \@initializelength{\makecvtitlepicturewidth}% Damit Länge bekannt bei Name
+        \settowidth{\makecvtitlepicturewidth}{\usebox{\makecvtitlepicturebox}}%
+      }%
+  % end define optional picture
+
+  % name
+%    \parbox[b]{\textwidth-\makecvtitlepicturewidth}{%
+ {   \raggedright\namefont{\color{color2!50}\@firstname} {\color{color2}\@familyname}}%\lastname -> error
+    \hfill\usebox{\makecvtitlepicturebox}%
+%    \parbox[b]{\textwidth-\makecvtitlepicturewidth}{%
+%   \raggedleft\namefont{\color{color2!50}\@firstname} {\color{color2}\@lastname}}%\familyname
+\\[-.35em]%
+  {\color{color2!50}\rule{\textwidth}{.25ex}}%
+  % optional title
+  \ifthenelse{\equal{\@title}{}}{}{\\[1.25em]\null\hfill\titlestyle{\@title}}\\[2.5em]% 
+  % optional quote
+  \ifthenelse{\isundefined{\@quote}}%
+    {}%
+    {{\null\hfill\begin{minipage}{\quotewidth}\centering\quotestyle{\@quote}\end{minipage}\hfill\null\\[2.5em]}}%
+  \par}% 
+%}% AtBeginDocument ende
+\makeatother
+
+
+
+
+
+%---------content--------------------------------------------------------------
+\begin{document}
+\maketitle
+
+
+\section{Personal}
+\cvitem{Date of birth}{16.06.1987}
+\cvitem{Nationality}{german}
+\cvitem{Marital Status}{single}
+\cvitem{Languages}{German (native), English (fluent), Romanian (good)}
+\vspace{1em}
+
+
+\section{Education}
+\cventry{04.2014 -- 01.2017}{Ph.D. Environmental Sciences}{University of Koblenz-Landau}{Landau}{}{Thesis: "Statistical Eco(toxico-)logy -
+Improving the Utilisation of Data for Environmental Risk Assessment". Thesis available from \url{http://uni-ko-ld.de/gd}}
+\cventry{04.2012 -- 03.2014}{M. Sc. Ecotoxicology}{University of Koblenz-Landau}{Landau}{}{Thesis: "Analysing mesocosm experiments: Principal Response Curves vs. Multivariate Generalized Linear Models." Available from \url{http://uni-ko-ld.de/ge}} 
+\cventry{11.2011}{B. Sc. Umweltwissenschaften}{University of Koblenz-Landau}{Landau}{}{Thesis: "Effects of salinity and pesticides on community structure of macroinvertebrates in Australian streams." Available from \url{http://uni-ko-ld.de/gf}}  
+\cventry{09.2007 -- 11.2011}{Dipl. Umweltwissenschaften}{University of Koblenz-Landau}{Landau}{}{}
+\vspace{1em}
+
+\section{Work and Teaching Experience}
+\cventry{03.2017 -- present}{Manager Biostatistics}{BASF SE}{Ludwigshafen}{}{}
+\cventry{02.2016 -- 01.2017}{Research Assistant}{University of Koblenz-Landau}{Landau}{}{Field Study in Romania, Data analyses, maintenance of databases and servers, PhD research.}
+\cventry{11.2015 -- 02.2017}{Freelance Scientist \& Consultant}{}{}{}{Data sourcing, cleaning and analysis with specialization in Environmental \& Ecological data. Courses in ecological statistics with the software \emph{''R''}.}
+\cventry{04.2015 -- 01.2016}{Research Assistant}{University of Koblenz-Landau}{Landau}{}{"PSM in Kleingewässern". A project funded by the German Environment Agency (FKZ 3714674040/1). Building, maintaining and analysing a nation-wide german pesticide monitoring database.}
+\cventry{2014 -- 2016}{Teaching Assistant}{University of Koblenz-Landau}{Landau}{}{Advanced Geographic Information System (GIS) Course, supervision of student projects.}
+\cventry{05.2014 -- 04.2015}{Research Assistant}{University of Koblenz-Landau}{Landau}{}{Data analyses, maintenance of databases and servers, PhD research.}
+\cventry{12.2013}{Research Assistant}{University of Koblenz-Landau}{Landau}{}{Development of a PostgreSQL-database of german physico-chemical data.}
+\cventry{12.2012}{Research Assistant}{Department System Ecotoxicology, UFZ – Helmholtz Centre for Environmental Research}{Leipzig}{}{Development of rspear R-package.}
+\cventry{05.2012 -- 07.2012}{Internship}{Dr. M. Liess, Department System Ecotoxicology, UFZ – Helmholtz Centre for Environmental Research}{Leipzig}{}{Field Study on the effects of pesticides on macroinvertebrates.}
+\cventry{2011 -- 2015}{Teaching Assistant}{University of Koblenz-Landau}{Landau}{}{Multivariate Statistics Course.}
+\cventry{07.2010}{Teaching Assistant}{University of Koblenz-Landau}{Landau}{}{Aquatic Ecology Field Course.}
+\cventry{06.2006 -- 07.2007}{Voluntary Year of Environmental Service / Civil Service.}{Landschaftspflegeverband Südpfalz e. V.}{Landau}{}{Biological sampling, biotope conservation, data preparation.}
+\vspace{1em}
+
+\section{Programming Skills}
+\cvitem{Expert}{R}
+\cvitem{Intermediate}{\LaTeX, git, shiny, PostgreSQL, GrassGIS, PostGIS, shell, regex, xpath, cloud computing, linux server administration}
+\cvitem{Beginner}{Python, C++, CDK, RDKit, openbabel, NetLogo}
+
+(Beginner = \emph{"I know the basics and can get the job done"}; Intermediate = \emph{"I can effectively apply these tools"}; Expert = \emph{"I can develop and expand these tools."})
+\vspace{1em}
+
+
+\section{Software}
+I have developed or contributed to the following open source software for the R statistical computing environment, available from github (\url{https://github.com/EDiLD}) or The Comprehensive R Archive Network (CRAN):
+\vspace{0.5em}
+\begin{itemize}
+     \item \textbf{webchem}: An R package to retrieve chemical information from the web (author).
+	\item \textbf{taxize}: An R package for taxonomic search, retrieval and handling in R (co-author).
+	\item \textbf{vegan}: Multivariate Statistics, ordination methods, diversity analysis and other functions for community and vegetation ecologists (co-author).
+	\item \textbf{shiny apps}: 
+    \begin{itemize}
+      \item Calculate statistical power for one factorial designs (available at \url{http://uni-ko-ld.de/gc}).
+      \item Teaching tool for Generalised Linear Models (available at \url{http://uni-ko-ld.de/g3})
+    \end{itemize}
+
+  \item \textbf{rspear}: Calculate SPEAR\textsubscript{pesticides} in R (deprecated, author).
+	\item Various other R packages and functions related to eco(toxico-)logy and environmental sciences.
+\end{itemize}
+
+\newpage
+
+% Publications from a BibTeX file using the multibib package
+%paper,submitted, chapter, conference
+\section{Publications and Conference contributions}
+\begin{refsection}[papers]
+  \nocite{*}
+  \boldname{Szöcs}{}{}
+  \printbibliography[title={Articles}, heading=subbibliography]
+\end{refsection}
+
+\clearpage
+\begin{refsection}[posters]
+  \nocite{*}
+  \boldname{Szöcs}{}{}
+  \printbibliography[title={Poster presentations}, heading=subbibliography]
+\end{refsection}
+
+As a service to the scientific community I performed a total of 5 reviews for the journals \emph{Proceedings of the Royal Society B, PhytoKeys, Zookeys}, \emph{Environmental Toxicology and Chemistry} and \emph{Methods in Ecology and Evolution}.
+
+% \section{Presentations}
+
+
+\section{Workshops held}
+\cventry{07.2015}{Data analysis in freshwater ecology using R}{9th Symposium for European Freshwater Sciences}{Geneva}{}{Workshop held together with Dr. Ralf B. Schäfer and Dr. Avit K. Bhowmik. Workshop homepage: \url{https://github.com/EDiLD/sefs9_Rworkshop}}
+\cventry{11.2015}{Data Visualization with ggplot2}{Workshop held at Young Academics Conference 2015 - Land-Water-Interactions}{Klingenmünster}{}{Workshop homepage: \url{https://github.com/EDiLD/r_landau_2015}}
+
+\section{Miscellaneous}
+\cvitem{Hobbies}{Traditional Climbing, Hiking, Boardgames}
+\cvitem{Voluntary activities}{Board member of the local climbers association "Vereinigung der Pfälzer Kletterer e.V."}
+
+\vspace{2em}
+Neustadt a.d. Weinstraße, \today
+\end{document}

@@ -1,0 +1,863 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cas",
+				"cas_number"
+			],
+			[
+				"ob",
+				"obs_duration_unit"
+			],
+			[
+				"field",
+				"field_study_type_codes"
+			],
+			[
+				"media",
+				"media_type"
+			],
+			[
+				"results",
+				"results_id"
+			],
+			[
+				"chem",
+				"chemicals"
+			],
+			[
+				"spec",
+				"species_number"
+			],
+			[
+				"chemicals",
+				"chemical_carriers"
+			],
+			[
+				"re",
+				"reference_number"
+			],
+			[
+				"refer",
+				"reference_number"
+			],
+			[
+				"te",
+				"test_id"
+			],
+			[
+				"test_",
+				"test_cas"
+			],
+			[
+				"Pro",
+				"Probenahmeart"
+			],
+			[
+				"chk_",
+				"chk_join"
+			],
+			[
+				"LE",
+				"LEITFAHIG"
+			],
+			[
+				"Gew",
+				"Gewässer"
+			],
+			[
+				"Gewässer",
+				"Gewässertyp"
+			],
+			[
+				"da",
+				"datacategoryname"
+			],
+			[
+				"na",
+				"nawqa"
+			],
+			[
+				"spm_nawq",
+				"spm_nawqa_sampleinv"
+			],
+			[
+				"sp",
+				"sptm_sites"
+			],
+			[
+				"spm_st",
+				"spm_stationId"
+			],
+			[
+				"bio_si",
+				"bio_sites_invertebrates"
+			],
+			[
+				"AN",
+				"ANALYZE"
+			],
+			[
+				"spm_",
+				"spm_nawqa"
+			],
+			[
+				"bio",
+				"bio_SiteInfo"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 146,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/LaTeXing/LaTeX.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				]
+			],
+			[
+				"Packages/LaTeXing/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/R-Box/support/R Markdown.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/R-Box/support/R Markdown.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/R-Box/support/R Sweave.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/R-Box/support/R Sweave.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "git",
+		"selected_items":
+		[
+			[
+				"git",
+				"Git: Push"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"git ",
+				"Git: Status"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"package control",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"reposit",
+				"Package Control: Add Repository"
+			],
+			[
+				"repo",
+				"Github: Repository"
+			],
+			[
+				"add r",
+				"Package Control: Add Repository"
+			],
+			[
+				"git p",
+				"Git: Push"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git c",
+				"Git: Commit history"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"packae",
+				"Package Control: Enable Package"
+			],
+			[
+				"gitS",
+				"Git: Status"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/edisz/Documents/personal/CV"
+	],
+	"file_history":
+	[
+		"/home/edisz/Documents/personal/CV/escv.tex",
+		"/home/edisz/Documents/personal/CV/README",
+		"/home/edisz/Documents/personal/CV/pro_aux.sh",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/packages.md",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_includes/header.html",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/style.scss",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_sass/_variables.scss",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_includes/sidebar.html",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_layouts/default.html",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/about.md",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/publications.md",
+		"/home/edisz/Documents/Uni/Projects/PHD/6USETHEGLM/manuscript/final/report.tex",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_includes/footer.html",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/index.html",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_layouts/page.html",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/legal/disclaimer.md",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/legal/imprint.md",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_config.yml",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/.gitignore",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/indexbrief.md",
+		"/home/edisz/.config/sublime-text-3/Packages/SublimeGit/Default.sublime-keymap",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com_new/_config.yml",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com_new/_includes/header.html",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com_new/_layouts/default.html",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com_new/_includes/navbar.html",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_includes/svg-icons.html",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com_new/_layouts/page.html",
+		"/home/edisz/Documents/PK/gipfelbuchwart/Jahrbuch/2016/Nachfragen im Archiv",
+		"/home/edisz/Documents/PK/gipfelbuchwart/website/GB/images/create_thumb.sh",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com_new/permissions/index.html",
+		"/home/edisz/Downloads/wg_gesucht/create_thumb.sh",
+		"/home/edisz/test.tex",
+		"/home/edisz/Documents/Uni/Programs/Chemprop_new/install_wine",
+		"/home/edisz/Documents/Uni/Programs/Chemprop_new/license_key",
+		"/home/edisz/Documents/R-Stuff/Code/own/misc/plz/script.R",
+		"/home/edisz/.cache/.fr-1dqfBV/gwue_stationen.txt",
+		"/home/edisz/Documents/R-Stuff/Code/own/misc/map.svg.html",
+		"/home/edisz/Documents/R-Stuff/Code/own/misc/plz/map.svg.html",
+		"/home/edisz/.wine-chemprop2/drive_c/users/edisz/Desktop/ChemProp.desktop",
+		"/home/edisz/Downloads/phil_mixtures/graph.py",
+		"/home/edisz/Documents/Uni/Programs/Chemprop_new/download",
+		"/home/edisz/Documents/Uni/Programs/Chemprop_new/download_password",
+		"/home/edisz/Documents/Uni/Programs/chemprop/license_key",
+		"/home/edisz/Documents/Uni/Courses/WS1415/Multivariate_Statistics/Exam_20150722/studs_back/kondagala_Iris.r.R",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_source/2014-11-08-etox-webscr.Rmd",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_source/2014-12-30-ssd.Rmd",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_source/2015-01-19-quant-ecotox20-glm.Rmd",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_source/2015-02-20-mvabund.Rmd",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_source/2015-04-26-webchem.Rmd",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_sass/_highlights.scss",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_posts/2012-12-26-rspear1.md",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_posts/2013-01-23-quant-ecotox9.md",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_posts/2012-12-04-taxizeoncran.md",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_posts/2012-12-01-spear1.md",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_posts/2012-12-01-quant-ecotox8.md",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_posts/2012-12-01-prc2.md",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_posts/2012-12-01-quant-ecotox1.md",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_posts/2012-12-01-quant-ecotox2.md",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_posts/2012-12-01-quant-ecotox3.md",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_posts/2012-12-01-quant-ecotox4.md",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_posts/2012-12-01-quant-ecotox5.md",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_posts/2012-12-01-quant-ecotox6.md",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_posts/2012-12-01-quant-ecotox7.md",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/tags.md",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_layouts/post.html",
+		"/media/edisz/backup_hdd/home/edisz/Documents/Uni/Projects/edild.github.com/index.html",
+		"/media/edisz/backup_hdd/home/edisz/Documents/Uni/Projects/edild.github.com/tags.html",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/edild.github.com.Rproj",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_posts/2013-12-13-collinear.md",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_posts/2012-12-01-prc1.md",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_posts/2012-12-01-ncbi1.md",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_posts/2012-12-01-iucn.md",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_posts/2015-07-14-test.md",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/rmd2md.R",
+		"/home/edisz/.ruby-version",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_posts/2012-12-01-ncbi1.markdown",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_posts/2012-12-01-iucn.markdown",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_layouts/blog_index.html",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/Gemfile",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_source/Makefile",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_posts/2012-12-01-prc1.markdown",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com.old/octopress/source/about/index.markdown",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com.old/octopress/_config.yml",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com.old/octopress/source.old/about/index.markdown",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_posts/test.md",
+		"/home/edisz/Documents/Uni/Projects/edild.github.com/_posts/2014-3-3-Hello-World.md",
+		"/home/edisz/Documents/Uni/Projects/PHD/4BFG/Project/data/bio/hering/db_csv/tbl_metrics_selection.csv",
+		"/home/edisz/Documents/Uni/Projects/PHD/4BFG/Project/data/bio/hering/db_csv/tbl_MZB_selection.csv",
+		"/home/edisz/Documents/Uni/Projects/PHD/4BFG/Project/data/bio/hering/db_csv/tbl_chemie_selection.csv",
+		"/home/edisz/Downloads/rhein_temp/rhein_gam.R",
+		"/home/edisz/Downloads/plot_classification.R",
+		"/home/edisz/usb_laptop_sync/todo",
+		"/home/edisz/usb_laptop_sync/sefs/notes/Lorenz_small_waterbodies",
+		"/home/edisz/Documents/Scripts/ocrmypdf/OCRmyPDF.sh",
+		"/home/edisz/usb_laptop_sync/sefs/notes/thoughs",
+		"/home/edisz/Documents/Uni/Projects/PHD/7NORMAN/cache/monitoring/per_year/sax_monitoring_2006.csv",
+		"/etc/apt/sources.list",
+		"/home/edisz/Downloads/n90/280315_N90_DEF.R",
+		"/home/edisz/Documents/Uni/Projects/Reviews/perez_luque_phytokey_2015/Review_ES/review_es.tex",
+		"/home/edisz/Documents/R-Stuff/Code/own/devel/vegan/src/vegdist.c",
+		"/home/edisz/Documents/Uni/Projects/physico_trends/src/all.R",
+		"/home/edisz/Documents/Uni/Projects/physico_trends/src/gamm_timeseries.R",
+		"/home/edisz/.config/sublime-text-3/Packages/User/Default.sublime-keymap",
+		"/home/edisz/.config/Florian_Hackenberger/ktikz.conf",
+		"/home/edisz/.config/sublime-text-3/Packages/LaTeXing/Default.sublime-keymap",
+		"/home/edisz/.config/sublime-text-3/Packages/LaTeXing/Default (Linux).sublime-keymap",
+		"/home/edisz/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/edisz/.config/sublime-text-3/Packages/LaTeXing/LaTeXing.sublime-settings",
+		"/home/edisz/.config/sublime-text-3/Packages/User/LaTeXing.sublime-settings",
+		"/home/edisz/.config/sublime-text-3/Packages/SublimeWritingStyle/SublimeWritingStyle.sublime-settings",
+		"/home/edisz/.config/sublime-text-3/Packages/User/SublimeWritingStyle.sublime-settings",
+		"/home/edisz/Documents/Uni/Projects/PHD/4BFG/Project/data/spatial/Landuse/corine_100/load_postgis.txt",
+		"/home/edisz/Documents/Uni/Projects/PHD/4BFG/geoserver/pg_backup/pg_backup.sh",
+		"/home/edisz/Documents/Uni/Projects/PHD/4BFG/geoserver/pg_backup/pg_backup.config",
+		"/home/edisz/Documents/Uni/Projects/PHD/4BFG/geoserver/batch_asc_load.sh",
+		"/home/edisz/.unison/test.prf",
+		"/home/edisz/.unison/laptop_usb.prf",
+		"/home/edisz/Documents/Uni/Projects/PHD/CONFERENCES/SEFS9_Geneva/2-Ordination/code/IntroOrdination.R",
+		"/home/edisz/Documents/Uni/Projects/PHD/CONFERENCES/SEFS9_Geneva/2-Ordination/code/IntroOrdination_withsolution.R",
+		"/home/edisz/Documents/Uni/Projects/PHD/4BFG/geoserver/pg_backup/pg_backup_rotated.sh",
+		"/home/edisz/Downloads/pg_backup/pg_backup.config",
+		"/home/edisz/Downloads/pg_backup/pg_backup_rotated.sh",
+		"/home/edisz/Downloads/pg_backup/pg_backup.sh",
+		"/home/edisz/.config/sublime-text-3/Packages/User/LaTeXTools.sublime-settings",
+		"/home/edisz/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/edisz/.config/sublime-text-3/Packages/User/LaTeXTools.sublime-settings_backup",
+		"/home/edisz/.config/sublime-text-3/Packages/User/R-Box.sublime-settings",
+		"/usr/share/applications/sublime_text.desktop"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"font-si",
+			"alt=\"blacktocat\" width=\"40\" height=\"40\"",
+			"font-size",
+			"activepa",
+			"GRay",
+			"red",
+			"E14",
+			"$red",
+			"fira",
+			"source",
+			"div",
+			"fira",
+			"darker",
+			"helv",
+			"hover",
+			"active",
+			"pydot",
+			"pydot.",
+			"light",
+			"navbar",
+			"active",
+			"5",
+			"curren",
+			"active",
+			"{% endhighlight %}",
+			"{",
+			"figure",
+			"```",
+			"```r",
+			"figure",
+			"```",
+			"```r",
+			"figure",
+			"```",
+			"```r",
+			"figure",
+			"```",
+			"```r",
+			"figure",
+			"```",
+			"```r",
+			"Page",
+			"```",
+			"```r",
+			"figure",
+			"```",
+			"```r",
+			"```",
+			"```r",
+			"```",
+			"```r",
+			"```",
+			"```r",
+			"highligh",
+			"size",
+			"```",
+			"```r",
+			"```",
+			"```r",
+			"endhighlight",
+			"figure",
+			"```",
+			"```r",
+			"```",
+			"```r",
+			"[\"\\\"\"]",
+			"``\"",
+			"\\\"",
+			"+l",
+			"+b",
+			"error",
+			"warning",
+			"scatterplot",
+			"max",
+			"url",
+			",",
+			"Is the substance tested representative for the substance being ",
+			"concen",
+			"field",
+			"FIEL	",
+			"FIELD",
+			"norman",
+			"veh",
+			"Substance",
+			"concen",
+			"Field",
+			"Measured doses",
+			"field ",
+			"represe",
+			"Merch",
+			"ingr",
+			"other ing",
+			"GLP",
+			"'NA'",
+			"Endpoin",
+			"applica",
+			"obs",
+			"mean_op",
+			"Vehic",
+			"chemical",
+			"nega",
+			"acute",
+			"form",
+			"Form",
+			"formul",
+			"test_ch",
+			"test_char",
+			"comm",
+			"conc_un",
+			"doses.conc_u",
+			"number ",
+			"endpoi",
+			"endpoin",
+			"effec",
+			"qualifi",
+			"qual",
+			"acute",
+			"'NDB'",
+			"cc",
+			"doses.",
+			"dd",
+			"mortality",
+			"motality",
+			"control",
+			"raw",
+			"morta",
+			"codes.desc",
+			"acute_ch"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"alt=\"blacktocat\" width=\"30\" height=\"30\"",
+			"",
+			"{% endhighlight %}\n",
+			"{% highlight r %}",
+			"{% endhighlight %}",
+			"{% highlight r %}",
+			"{% endhighlight %}",
+			"{% highlight r %}",
+			"{% endhighlight %}",
+			"{% highlight r %}",
+			"{% endhighlight %}",
+			"{% highlight r %}",
+			"{% endhighlight %}",
+			"{% highlight r %}",
+			"{% endhighlight %}",
+			"{% highlight r %}",
+			"{% endhighlight %}",
+			"{% highlight r %}",
+			"{% endhighlight %}",
+			"{% highlight r %}",
+			"{% endhighlight %}",
+			"{% highlight r %}",
+			"{% endhighlight %}",
+			"{% highlight r %}",
+			"{% endhighlight %}",
+			"{% highlight r %}",
+			"{% endhighlight %}",
+			"{% highlight r %}",
+			"{% endhighlight %}",
+			"{% highlight r %}",
+			"",
+			"'n.a.'",
+			"'not assigned'",
+			"'NA'",
+			"\\filldraw[fill=gray] (0cm:6cm) circle (4cm) node {$~~~Eco(toxico)logy$};",
+			"\\filldraw[fill=gray] (2.12cm:6cm) circle (4cm) node {$Big Data$};",
+			"\\filldraw[fill=hilight] (2.12cm:6cm) circle (4cm) node {$Big Data$};",
+			"GLM_{npb}",
+			"Type 1",
+			"--- select start points \nCREATE VIEW tmp_views.stp AS\n	ST_StartPoint(b.geom) as stp, b.gid AS gid\nFROM \n  spatial.stream_typ AS a, spatial.stream_typ AS b\nWHERE\n	ST_Intersects(ST_EndPoint(a.geom), ST_StartPoint(b.geom)) = f;",
+			"10",
+			"--- Query EZG from States with < 100km^2\nCREATE VIEW spatial.ezg100 AS \nSELECT *,\n    ST_AREA(geom) / 1000000 AS area\nFROM \n  spatial.ezg_2500km2_31467\n WHERE\n  ST_AREA(geom) / 1000000 < 10",
+			"10",
+			"brock_minimum_2015",
+			"\\\\cite",
+			" ",
+			"",
+			"\\end{aligned}$$",
+			"$$\\begin{aligned}",
+			"50000",
+			"10000",
+			"",
+			" Long",
+			" 100 degrees",
+			"paa ",
+			"smpl 9 sample",
+			" CH..",
+			" send",
+			" Send",
+			" sent",
+			" long",
+			" sent",
+			" Send",
+			" Long",
+			" long",
+			" paa",
+			" send",
+			" long",
+			" Longitude ",
+			" longitude",
+			" Longitude",
+			" longitude",
+			"\"",
+			"'Attn: Charlie Patton TPCN'",
+			"'boiling'",
+			"",
+			",\n",
+			"FROM",
+			"Thesis, University of Utah",
+			"Thesis,  University of Utah",
+			",",
+			"|",
+			"SELEECT",
+			"CREATE",
+			"\\and",
+			" \\and",
+			"naw."
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146,
+								146
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "plain text",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SQLExec":
+	{
+		"height": 241.0
+	},
+	"output.SQLExec.errors":
+	{
+		"height": 115.0
+	},
+	"output.exec":
+	{
+		"height": 245.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 112.0
+	},
+	"output.git-commit":
+	{
+		"height": 112.0
+	},
+	"output.git-push":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "Packages/LaTeXing/LaTeX.sublime-build",
+	"project": "CV.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"s",
+				"~/Downloads/donotlog/report/usetheglm.Rnw"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 222.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 190.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

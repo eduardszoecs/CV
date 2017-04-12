@@ -1,0 +1,827 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\preamble{%
+\newcommand{\noop}[1]{}%
+}
+
+
+\refsection{1}
+  \sortlist[entry]{ydnt/global}
+    \entry{lagadic_no_2016}{article}{}
+      \name{author}{16}{}{%
+        {{uniquename=0,hash=604dc5c984543e96357e26bbdb2fcda1}{%
+           family={Lagadic},
+           family_i={L\bibinitperiod},
+           given={Laurent},
+           given_i={L\bibinitperiod}}}%
+        {{uniquename=0,hash=3f209b50103e96ba9109945ad46237ee}{%
+           family={Schäfer},
+           family_i={S\bibinitperiod},
+           given={Ralf\bibnamedelima B.},
+           given_i={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=44a626c60bae71cad0e5c8a4b3f82ec5}{%
+           family={Roucaute},
+           family_i={R\bibinitperiod},
+           given={Marc},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=b7238c71da2e2bcf0f4e948f83d5ce79}{%
+           family={Szöcs},
+           family_i={S\bibinitperiod},
+           given={Eduard},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=fa504be5713a2e87a5c59beadaed7263}{%
+           family={Chouin},
+           family_i={C\bibinitperiod},
+           given={Sébastien},
+           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=0425a2ed192a2dca0bad7438035cda15}{%
+           prefix={de},
+           prefix_i={d\bibinitperiod},
+           family={Maupeou},
+           family_i={M\bibinitperiod},
+           given={Jérôme},
+           given_i={J\bibinitperiod}}}%
+        {{uniquename=0,hash=00b371d35991b491398de42478389685}{%
+           family={Duchet},
+           family_i={D\bibinitperiod},
+           given={Claire},
+           given_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=d5bec72c25ea50886e35bdf794293547}{%
+           family={Franquet},
+           family_i={F\bibinitperiod},
+           given={Evelyne},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=de6ac98698358798e36f8e9b87e53739}{%
+           family={Le\bibnamedelima Hunsec},
+           family_i={L\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Benoit},
+           given_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=afbe54b5ea2f2ec975efe5987010780e}{%
+           family={Bertrand},
+           family_i={B\bibinitperiod},
+           given={Céline},
+           given_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=be8ed3651ad451accfca7c17750b5933}{%
+           family={Fayolle},
+           family_i={F\bibinitperiod},
+           given={Stéphanie},
+           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=075a6ea0560c96f0740c1515975d9b2b}{%
+           family={Francés},
+           family_i={F\bibinitperiod},
+           given={Benoît},
+           given_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=5bc42519e692dd345d68e5581196b841}{%
+           family={Rozier},
+           family_i={R\bibinitperiod},
+           given={Yves},
+           given_i={Y\bibinitperiod}}}%
+        {{uniquename=0,hash=dee356b76456ec22c6abf9393a78c95b}{%
+           family={Foussadier},
+           family_i={F\bibinitperiod},
+           given={Rémi},
+           given_i={R\bibinitperiod}}}%
+        {{uniquename=0,hash=2cfbf29b83cc95f1f4974fb12e5522a3}{%
+           family={Santoni},
+           family_i={S\bibinitperiod},
+           given={Jean-Baptiste},
+           given_i={J\bibinithyphendelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=34f98fa080ac2769f0238fd5efe4d398}{%
+           family={Lagneau},
+           family_i={L\bibinitperiod},
+           given={Christophe},
+           given_i={C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{558f3e79aa454ea0b604285675596a7b}
+      \strng{fullhash}{ab73b6fbc316d8a16fa07f2ccf88cdcb}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00489697}
+      \field{journaltitle}{Science of The Total Environment}
+      \field{title}{No association between the use of {Bti} for mosquito control and the dynamics of non-target aquatic invertebrates in {French} coastal and continental wetlands}
+      \field{urlday}{29}
+      \field{urlmonth}{02}
+      \field{urlyear}{2016}
+      \field{volume}{553}
+      \field{year}{2016}
+      \field{pages}{486\bibrangedash 494}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.scitotenv.2016.02.096
+      \endverb
+      \verb{url}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0048969716303060
+      \endverb
+    \endentry
+    \entry{schreiner_pesticide_2016}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=b17479e081a30f76c966c809acb34fe8}{%
+           family={Schreiner},
+           family_i={S\bibinitperiod},
+           given={Verena\bibnamedelima C.},
+           given_i={V\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=b7238c71da2e2bcf0f4e948f83d5ce79}{%
+           family={Szöcs},
+           family_i={S\bibinitperiod},
+           given={Eduard},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=3e0194a3654a8a9c392f6f91e20be84c}{%
+           family={Bhowmik},
+           family_i={B\bibinitperiod},
+           given={Avit\bibnamedelima Kumar},
+           given_i={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{uniquename=0,hash=f55cdd92dda5a7cf6586ecddf866a246}{%
+           family={Vijver},
+           family_i={V\bibinitperiod},
+           given={Martina\bibnamedelima G.},
+           given_i={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{uniquename=0,hash=3f209b50103e96ba9109945ad46237ee}{%
+           family={Schäfer},
+           family_i={S\bibinitperiod},
+           given={Ralf\bibnamedelima B.},
+           given_i={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{328378639f6803703d115bf37fd5b9e4}
+      \strng{fullhash}{1b5f6f0ed6f31fff009f423dab1f5666}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2016}
+      \field{labelmonth}{12}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Given the multitude of pesticides used in agriculture, adjacent streams are typically exposed to pesticide mixtures. Previous studies analysed the ecological risks of a few pesticide mixtures or were limited to an individual region or crop, whereas a large scale analysis of pesticide mixtures is missing. We analysed routine monitoring data from Germany, France, the Netherlands and the USA comprising a total of 4532 sites and 56,084 sampling occasions with the aim to identify the most frequently detected pesticides, their metabolites and mixtures. The most frequently detected compounds were dominated by herbicides and their metabolites. Mixtures mostly comprised of two up to five compounds, whereas mixtures in the USA and France had clearly less compounds than those of Germany and the Netherlands. The number of detected pesticides and thereby the size of mixtures is positively correlated to the number of measured pesticides (r = 0.57). In contrast, a low relationship was found to the ratio of agricultural areas within the catchment (r = 0.17), and no relationship was found to the size of the catchment (r = 0.06). Overall, our study provides priority mixtures for different countries that may be used for future ecotoxicological studies to improve risk assessment for stream ecosystems.}
+      \field{issn}{0048-9697}
+      \field{journaltitle}{Science of The Total Environment}
+      \field{month}{12}
+      \field{title}{Pesticide mixtures in streams of several {European} countries and the {USA}}
+      \field{urlday}{30}
+      \field{urlmonth}{08}
+      \field{urlyear}{2016}
+      \field{volume}{573}
+      \field{year}{2016}
+      \field{pages}{680\bibrangedash 689}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.scitotenv.2016.08.163
+      \endverb
+      \verb{file}
+      \verb mmc1.pdf:/home/edisz/Literature/storage/CXPM4K9S/mmc1.pdf:application/pdf;Schreiner_2016_stoten.pdf:/home/edisz/Literature/storage/39DWS57S/Schreiner_2016_stoten.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0048969716318654
+      \endverb
+    \endentry
+    \entry{szocs_statistical_2016}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=b7238c71da2e2bcf0f4e948f83d5ce79}{%
+           family={Szöcs},
+           family_i={S\bibinitperiod},
+           given={Eduard},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=2ee971da9fc713040aa6af1fa1aeb50a}{%
+           family={Schäfer},
+           family_i={S\bibinitperiod},
+           given={Ralf\bibnamedelima B},
+           given_i={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{42f64d592d406296d7354eb757f61005}
+      \strng{fullhash}{42f64d592d406296d7354eb757f61005}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1551-3793}
+      \field{journaltitle}{Integrated Environmental Assessment and Management}
+      \field{number}{2}
+      \field{title}{Statistical hypothesis testing—{To} transform or not to transform?}
+      \field{urlday}{29}
+      \field{urlmonth}{03}
+      \field{urlyear}{2016}
+      \field{volume}{12}
+      \field{year}{2016}
+      \field{pages}{398\bibrangedash 400}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1002/ieam.1748
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1002/ieam.1748/abstract
+      \endverb
+    \endentry
+    \entry{mbaka_meta-analysis_2015}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=c18e00585851123e295032b28089a300}{%
+           family={Mbaka},
+           family_i={M\bibinitperiod},
+           given={John\bibnamedelima G.},
+           given_i={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{uniquename=0,hash=b7238c71da2e2bcf0f4e948f83d5ce79}{%
+           family={Szöcs},
+           family_i={S\bibinitperiod},
+           given={Eduard},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=3f209b50103e96ba9109945ad46237ee}{%
+           family={Schäfer},
+           family_i={S\bibinitperiod},
+           given={Ralf\bibnamedelima B.},
+           given_i={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0925816900e84a17ee9182840ced599}
+      \strng{fullhash}{c0925816900e84a17ee9182840ced599}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2015}
+      \field{labelmonth}{11}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1146-609X}
+      \field{journaltitle}{Acta Oecologica}
+      \field{month}{11}
+      \field{title}{Meta-analysis on the responses of traits of different taxonomic groups to global and local stressors}
+      \field{urlday}{29}
+      \field{urlmonth}{09}
+      \field{urlyear}{2015}
+      \field{volume}{69}
+      \field{year}{2015}
+      \field{pages}{65\bibrangedash 70}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.actao.2015.09.002
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S1146609X15300175
+      \endverb
+    \endentry
+    \entry{szocs_analysing_2015}{article}{}
+      \name{author}{13}{uniquelist=2}{%
+        {{uniquename=0,hash=b7238c71da2e2bcf0f4e948f83d5ce79}{%
+           family={Szöcs},
+           family_i={S\bibinitperiod},
+           given={Eduard},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=a90bdb417eefb005042183f854e6e776}{%
+           family={Brink},
+           family_i={B\bibinitperiod},
+           given={Paul\bibnamedelimb J.\bibnamedelimi van\bibnamedelima den},
+           given_i={P\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{uniquename=0,hash=604dc5c984543e96357e26bbdb2fcda1}{%
+           family={Lagadic},
+           family_i={L\bibinitperiod},
+           given={Laurent},
+           given_i={L\bibinitperiod}}}%
+        {{uniquename=0,hash=07cc2689ab7c762e94399c2e3180b6bd}{%
+           family={Caquet},
+           family_i={C\bibinitperiod},
+           given={Thierry},
+           given_i={T\bibinitperiod}}}%
+        {{uniquename=0,hash=44a626c60bae71cad0e5c8a4b3f82ec5}{%
+           family={Roucaute},
+           family_i={R\bibinitperiod},
+           given={Marc},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=b8849e8e885b33f2961b25ec73fff2c1}{%
+           family={Auber},
+           family_i={A\bibinitperiod},
+           given={Arnaud},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=bd81c8938d23dc98e6f4352ea47ed7c8}{%
+           family={Bayona},
+           family_i={B\bibinitperiod},
+           given={Yannick},
+           given_i={Y\bibinitperiod}}}%
+        {{uniquename=0,hash=a77679ce3d70af2e2ea48b231857459b}{%
+           family={Liess},
+           family_i={L\bibinitperiod},
+           given={Matthias},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=1888405f1db98a554c23a40232d2a075}{%
+           family={Ebke},
+           family_i={E\bibinitperiod},
+           given={Peter},
+           given_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=b78cc1de672c8334267aedb79163fc25}{%
+           family={Ippolito},
+           family_i={I\bibinitperiod},
+           given={Alessio},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=dd7f139eae531e81ed9c3ee3193d4f28}{%
+           family={Braak},
+           family_i={B\bibinitperiod},
+           given={Cajo\bibnamedelimb J.\bibnamedelimi F.\bibnamedelimi ter},
+           given_i={C\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim t\bibinitperiod}}}%
+        {{uniquename=0,hash=c5738661e9bdd372d5209cf587292267}{%
+           family={Brock},
+           family_i={B\bibinitperiod},
+           given={Theo\bibnamedelimb C.\bibnamedelimi M.},
+           given_i={T\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=3f209b50103e96ba9109945ad46237ee}{%
+           family={Schäfer},
+           family_i={S\bibinitperiod},
+           given={Ralf\bibnamedelima B.},
+           given_i={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{b93d8d737911773abd33739668acba4d}
+      \strng{fullhash}{9b4572cb756b7c1a8197efbe905666c9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2015}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Mesocosm experiments that study the ecological impact of chemicals are often analysed using the multivariate method ‘Principal Response Curves’ (PRCs). Recently, the extension of generalised linear models (GLMs) to multivariate data was introduced as a tool to analyse community data in ecology. Moreover, data aggregation techniques that can be analysed with univariate statistics have been proposed. The aim of this study was to compare their performance. We compiled macroinvertebrate abundance datasets of mesocosm experiments designed for studying the effect of various organic chemicals, mainly pesticides, and re-analysed them. GLMs for multivariate data and selected aggregated endpoints were compared to PRCs regarding their performance and potential to identify affected taxa. In addition, we analysed the inter-replicate variability encountered in the studies. Mesocosm experiments characterised by a higher taxa richness of the community and/or lower taxonomic resolution showed a greater inter-replicate variability, whereas variability decreased the more zero counts were encountered in the samples. GLMs for multivariate data performed equally well as PRCs regarding the community response. However, compared to first axis PRCs, GLMs provided a better indication of individual taxa responding to treatments, as separate models are fitted to each taxon. Data aggregation methods performed considerably poorer compared to PRCs. Multivariate community data, which are generated during mesocosm experiments, should be analysed using multivariate methods to reveal treatment-related community-level responses. GLMs for multivariate data are an alternative to the widely used PRCs.}
+      \field{journaltitle}{Ecotoxicology}
+      \field{number}{4}
+      \field{shorttitle}{Analysing chemical-induced changes in macroinvertebrate communities in aquatic mesocosm experiments}
+      \field{title}{Analysing chemical-induced changes in macroinvertebrate communities in aquatic mesocosm experiments: a comparison of methods}
+      \field{volume}{24}
+      \field{year}{2015}
+      \field{pages}{760\bibrangedash 769}
+      \range{pages}{10}
+      \verb{file}
+      \verb Szöcs_2015_Ecotoxicology.pdf:/home/edisz/Literature/storage/MVUPEEFI/Szöcs_2015_Ecotoxicology.pdf:application/pdf;Szöcs_2015_Ecotoxicology_SOM.pdf:/home/edisz/Literature/storage/E63CCGMI/Szöcs_2015_Ecotoxicology_SOM.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{szocs_ecotoxicology_2015}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=b7238c71da2e2bcf0f4e948f83d5ce79}{%
+           family={Szöcs},
+           family_i={S\bibinitperiod},
+           given={Eduard},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=3f209b50103e96ba9109945ad46237ee}{%
+           family={Schäfer},
+           family_i={S\bibinitperiod},
+           given={Ralf\bibnamedelima B.},
+           given_i={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{ed85404d978934c5b828c88f0db43355}
+      \strng{fullhash}{ed85404d978934c5b828c88f0db43355}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2015}
+      \field{labelmonth}{09}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0944-1344, 1614-7499}
+      \field{journaltitle}{Environmental Science and Pollution Research}
+      \field{month}{09}
+      \field{number}{18}
+      \field{shorttitle}{Ecotoxicology is not normal}
+      \field{title}{Ecotoxicology is not normal: {A} comparison of statistical approaches for analysis of count and proportion data in ecotoxicology}
+      \field{urlday}{30}
+      \field{urlmonth}{09}
+      \field{urlyear}{2015}
+      \field{volume}{22}
+      \field{year}{2015}
+      \field{pages}{13990\bibrangedash 13999}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/s11356-015-4579-3
+      \endverb
+      \verb{file}
+      \verb art%3A10.1007%2Fs11356-015-4579-3.pdf:/home/edisz/Literature/storage/MEKA6VG7/art%3A10.1007%2Fs11356-015-4579-3.pdf:application/pdf;preprint.pdf:/home/edisz/Literature/storage/2WCX94PP/preprint.pdf:application/pdf;supp1.pdf:/home/edisz/Literature/storage/BU8XHZQB/supp1.pdf:application/pdf;supp2.pdf:/home/edisz/Literature/storage/FXG4MTGV/supp2.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s11356-015-4579-3
+      \endverb
+    \endentry
+    \entry{szocs_effects_2014}{article}{}
+      \name{author}{4}{uniquelist=2}{%
+        {{uniquename=0,hash=b7238c71da2e2bcf0f4e948f83d5ce79}{%
+           family={Szöcs},
+           family_i={S\bibinitperiod},
+           given={Eduard},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=7b5847ad997ce968fca016ac1b33a5a8}{%
+           family={Coring},
+           family_i={C\bibinitperiod},
+           given={Eckhard},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=808d2b50c374b56d81772c7661059808}{%
+           family={Bäthe},
+           family_i={B\bibinitperiod},
+           given={Jürgen},
+           given_i={J\bibinitperiod}}}%
+        {{uniquename=0,hash=3f209b50103e96ba9109945ad46237ee}{%
+           family={Schäfer},
+           family_i={S\bibinitperiod},
+           given={Ralf\bibnamedelima B.},
+           given_i={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{aea4f925ec257ad3d0676f8198141892}
+      \strng{fullhash}{a134c20051c63698eb6848beb3d3eda6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science of The Total Environment}
+      \field{title}{Effects of anthropogenic salinization on biological traits and community composition of stream macroinvertebrates}
+      \field{volume}{468–469}
+      \field{year}{2014}
+      \field{pages}{943\bibrangedash 949}
+      \range{pages}{7}
+    \endentry
+    \entry{chamberlain_taxize:_2013}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=3434bb64888cad2e68f42e04f043f454}{%
+           family={Chamberlain},
+           family_i={C\bibinitperiod},
+           given={Scott\bibnamedelima A.},
+           given_i={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=b7238c71da2e2bcf0f4e948f83d5ce79}{%
+           family={Szöcs},
+           family_i={S\bibinitperiod},
+           given={Eduard},
+           given_i={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{52ae8f5ec0ad775ca94b47776979f26a}
+      \strng{fullhash}{52ae8f5ec0ad775ca94b47776979f26a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{All species are hierarchically related to one another, and we use taxonomic names to label the nodes in this hierarchy. Taxonomic data is becoming increasingly available on the web, but scientists need a way to access it in a programmatic fashion that’s easy and reproducible. We have developed taxize, an open-source software package (freely available from http://cran.r-project.org/web/packages/taxize/index.html) for the R language. taxize provides simple, programmatic access to taxonomic data for 13 data sources around the web. We discuss the need for a taxonomic toolbelt in R, and outline a suite of use cases for which taxize is ideally suited (including a full workflow as an appendix). The taxize package facilitates open and reproducible science by allowing taxonomic data collection to be done in the open-source R platform.}
+      \field{journaltitle}{F1000Research}
+      \field{number}{191}
+      \field{shorttitle}{taxize}
+      \field{title}{taxize: taxonomic search and retrieval in {R}}
+      \field{volume}{2}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.12688/f1000research.2-191.v2
+      \endverb
+      \verb{url}
+      \verb http://f1000research.com/articles/2-191/v2
+      \endverb
+    \endentry
+    \entry{schafer_effects_2012}{article}{}
+      \name{author}{9}{}{%
+        {{uniquename=0,hash=3f209b50103e96ba9109945ad46237ee}{%
+           family={Schäfer},
+           family_i={S\bibinitperiod},
+           given={Ralf\bibnamedelima B.},
+           given_i={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=c193ebf7cfacff518bcc17ff90b4c3fb}{%
+           family={Bundschuh},
+           family_i={B\bibinitperiod},
+           given={Mirco},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=aa488e8ecbe6b44329fe989c8ca67609}{%
+           family={Rouch},
+           family_i={R\bibinitperiod},
+           given={Duncan\bibnamedelima A.},
+           given_i={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=b7238c71da2e2bcf0f4e948f83d5ce79}{%
+           family={Szöcs},
+           family_i={S\bibinitperiod},
+           given={Eduard},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=7ff286660ba023f5af6cb019aeaca223}{%
+           prefix={von\bibnamedelima der},
+           prefix_i={v\bibinitperiod\bibinitdelim d\bibinitperiod},
+           family={Ohe},
+           family_i={O\bibinitperiod},
+           given={Peter\bibnamedelima C.},
+           given_i={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=9c867ea9792a86dc092e384ae676855e}{%
+           family={Pettigrove},
+           family_i={P\bibinitperiod},
+           given={Vincent},
+           given_i={V\bibinitperiod}}}%
+        {{uniquename=0,hash=38ba0976918956d0a9b2043772688d7f}{%
+           family={Schulz},
+           family_i={S\bibinitperiod},
+           given={Ralf},
+           given_i={R\bibinitperiod}}}%
+        {{uniquename=0,hash=cb364108f862a0563ceda921bbb141d9}{%
+           family={Nugegoda},
+           family_i={N\bibinitperiod},
+           given={Dayanthi},
+           given_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=cde6c674cfad9b23f78e92f1e24962b8}{%
+           family={Kefford},
+           family_i={K\bibinitperiod},
+           given={Ben\bibnamedelima J.},
+           given_i={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{25400b2b3542f7a22d7d02a525db3ad9}
+      \strng{fullhash}{10f1a8bebac24dff22a5c47cad9d09e0}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Effects of anthropogenic and environmental stressors on freshwater communities can propagate to ecosystem functions and may in turn impede ecosystem services. We investigated potential shifts in ecosystem functions that provide energy for freshwater ecosystems due to pesticides and salinity in 24 sites in streams of southeast Australia. First, effects on allochthonous organic matter (AOM) breakdown using three different substrates (leaves, cotton strips, wood sticks) in coarse and fine bags were investigated. Second, we examined effects on stream metabolism that delivers information on the ecosystem functions of gross primary production and ecosystem respiration. We found up to a fourfold reduction in AOM breakdown due to exposure to pesticides and salinity, where both stressors contributed approximately equally to the reduction. The effect was additive as, no interaction or correlation between the two stressors was found. Leaf breakdown responded strongly and exclusively to exposure to pesticides and salinity, whereas cotton strip breakdown was less sensitive and responded also to other stressors such as nutrients. No functional redundancy for the effects of pesticides and salinity on leaf breakdown was observed. For wood stick breakdown, no relationship to environmental gradients was found, however, the sample size was lower. We did not detect effects of pesticides or salinity on gross primary production or ecosystem respiration. A reduction in AOM breakdown by pesticides and salinity may impair the ecosystem services of food provision and possibly water purification. Hence, future studies should examine the spatial extent of these effects.}
+      \field{journaltitle}{Science of the Total Environment}
+      \field{number}{1}
+      \field{title}{Effects of pesticide toxicity, salinity and other environmental variables on selected ecosystem functions in streams and the relevance for ecosystem services}
+      \field{volume}{415}
+      \field{year}{2012}
+      \field{pages}{69\bibrangedash 78}
+      \range{pages}{10}
+      \verb{file}
+      \verb Schäfer_2012_STOTEN.pdf:/home/edisz/Literature/storage/DK5MFPKJ/Schäfer_2012_STOTEN.pdf:application/pdf;Schäfer et al_2012_Effects of pesticide toxicity, salinity and other environmental variables on.pdf:/home/edisz/Literature/storage/XHQSINF4/Schäfer et al_2012_Effects of pesticide toxicity, salinity and other environmental variables on.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{szocs_is_2012}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=9ec8a8fab91c2f22d55b10970265dfce}{%
+           family={Szöcs},
+           family_i={S\bibinitperiod},
+           given={E.},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=6f7ef04976b515a7fe8e27a8856a74fb}{%
+           family={Kefford},
+           family_i={K\bibinitperiod},
+           given={B.\bibnamedelimi J.},
+           given_i={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=3f209b50103e96ba9109945ad46237ee}{%
+           family={Schäfer},
+           family_i={S\bibinitperiod},
+           given={Ralf\bibnamedelima B.},
+           given_i={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{99e3adc505f254408bc18eaffd996fd2}
+      \strng{fullhash}{99e3adc505f254408bc18eaffd996fd2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Salinisation of freshwater ecosystems is a global problem affecting many regions worldwide and can co-occur with pesticides in agricultural regions. Given that both stressors are potent to affect macroinvertebrate communities, their effects could interact. We investigated the effects of salinity and pesticides at 24 sites in an agricultural region of southern Victoria, South-East Australia. We used distance-based redundancy analysis to determine the influence of pesticides, salinity and other environmental variables on the composition of macroinvertebrate communities. Salinity and pesticide toxicity had a statistically significant effect on communities as had the substrate composition and the percentage of pool and riffle sections in the sampled stream reaches. We did not find evidence for interactive effects between salinity and pesticides, i.e. the effect of one of these variables did not depend on the level of the other. Nevertheless, our results show that salinisation and exposure to pesticides can be major factors for the structure of macroinvertebrate communities in agricultural regions. Pesticide toxicity acted on a lower taxonomic level compared to salinity, potentially indicating evolutionary adaptation to salinity stress.}
+      \field{journaltitle}{Science of the Total Environment}
+      \field{number}{1}
+      \field{title}{Is there an interaction of the effects of salinity and pesticides on the community structure of macroinvertebrates?}
+      \field{volume}{437}
+      \field{year}{2012}
+      \field{pages}{121\bibrangedash 126}
+      \range{pages}{6}
+      \verb{file}
+      \verb Supplement.zip:/home/edisz/Literature/storage/PBW87TXV/Supplement.zip:application/zip;Szöcs_2012_STOTEN.pdf:/home/edisz/Literature/storage/I936VWT2/Szöcs_2012_STOTEN.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{szocs_smallstreams_2016}{article}{}
+      \name{author}{4}{uniquelist=2}{%
+        {{uniquename=0,hash=b7238c71da2e2bcf0f4e948f83d5ce79}{%
+           family={Szöcs},
+           family_i={S\bibinitperiod},
+           given={Eduard},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=30d2aa4028a0e9fa93597d7423b5540e}{%
+           family={Brinke},
+           family_i={B\bibinitperiod},
+           given={Marvin},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=9f752361a6c2c1b403b85c4382a06212}{%
+           family={Karaoglan},
+           family_i={K\bibinitperiod},
+           given={Bilgin},
+           given_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=2ee971da9fc713040aa6af1fa1aeb50a}{%
+           family={Schäfer},
+           family_i={S\bibinitperiod},
+           given={Ralf\bibnamedelima B},
+           given_i={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{5491a9f2125fe72484c8fe0acb9ca34e}
+      \strng{fullhash}{a0761bb1bf183e474747c2609794ad64}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{\noop{3002}submitted, 2016}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{preprint available at: \url{http://uni-ko-ld.de/ga}}
+      \field{journaltitle}{Environmental Science \& Technology}
+      \field{title}{Large scale risks from pesticides in small streams}
+      \field{year}{\noop{3002}submitted, 2016}
+    \endentry
+    \entry{szocs_webchem_2016}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=b7238c71da2e2bcf0f4e948f83d5ce79}{%
+           family={Szöcs},
+           family_i={S\bibinitperiod},
+           given={Eduard},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=2ee971da9fc713040aa6af1fa1aeb50a}{%
+           family={Schäfer},
+           family_i={S\bibinitperiod},
+           given={Ralf\bibnamedelima B},
+           given_i={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{42f64d592d406296d7354eb757f61005}
+      \strng{fullhash}{42f64d592d406296d7354eb757f61005}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{\noop{3003}accepted, 2016}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{preprint available at: \url{http://uni-ko-ld.de/g9}}
+      \field{journaltitle}{Journal of Statistical Software}
+      \field{title}{webchem: An R Package to Retrieve Chemical Information from the Web}
+      \field{year}{\noop{3003}accepted, 2016}
+    \endentry
+    \entry{Wieczorek_mesocosm_2016}{article}{}
+      \name{author}{7}{}{%
+        {{uniquename=0,hash=590d365a81a35c43c41f2906a7bfef3b}{%
+           family={Wieczorek},
+           family_i={W\bibinitperiod},
+           given={Matthias\bibnamedelima Valentin},
+           given_i={M\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{uniquename=0,hash=9fd1b085d5bdeed14172f8ad5a7f6141}{%
+           family={Bakanov},
+           family_i={B\bibinitperiod},
+           given={Nikita},
+           given_i={N\bibinitperiod}}}%
+        {{uniquename=0,hash=a51e50f1dd05055601760b4446fd2216}{%
+           family={Bilancia},
+           family_i={B\bibinitperiod},
+           given={Daniel},
+           given_i={D\bibinitperiod}}}%
+        {{uniquename=0,hash=b7238c71da2e2bcf0f4e948f83d5ce79}{%
+           family={Szöcs},
+           family_i={S\bibinitperiod},
+           given={Eduard},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=ca2f88d01658fcba1bc7ef3d85cf44cf}{%
+           family={Stehle},
+           family_i={S\bibinitperiod},
+           given={Sebastian},
+           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=c193ebf7cfacff518bcc17ff90b4c3fb}{%
+           family={Bundschuh},
+           family_i={B\bibinitperiod},
+           given={Mirco},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=38ba0976918956d0a9b2043772688d7f}{%
+           family={Schulz},
+           family_i={S\bibinitperiod},
+           given={Ralf},
+           given_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{7dedf35ed8286d49650cd25c3cedc890}
+      \strng{fullhash}{d14017c5c7b6ffc3af55ba1ad37055d3}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelyear}{\noop{3001}submitted, 2016}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Environmental Pollution}
+      \field{title}{Structural and functional effects of a short-term pyrethroid pulse exposure on invertebrates in outdoor stream mesocosms}
+      \field{year}{\noop{3001}submitted, 2016}
+    \endentry
+  \endsortlist
+\endrefsection
+
+\refsection{2}
+  \sortlist[entry]{ydnt/global}
+    \entry{szocs_ecotoxicology_2015}{misc}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=b7238c71da2e2bcf0f4e948f83d5ce79}{%
+           family={Szöcs},
+           family_i={S\bibinitperiod},
+           given={Eduard},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=c830809570ad71b9eec6e99c1756bf76}{%
+           family={Schäfer},
+           family_i={S\bibinitperiod},
+           given={R.\bibnamedelimi B.},
+           given_i={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {SETAC Europe; Barcelona}%
+      }
+      \strng{namehash}{e509ee26d6c46e98874a0e9a66b74085}
+      \strng{fullhash}{e509ee26d6c46e98874a0e9a66b74085}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2015}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ecotoxicology is not normal.}
+      \field{type}{Poster}
+      \field{year}{2015}
+      \verb{file}
+      \verb poster.pdf:/home/edisz/Literature/storage/GB52EDGX/poster.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{szocs_taxize:_2014}{misc}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=b7238c71da2e2bcf0f4e948f83d5ce79}{%
+           family={Szöcs},
+           family_i={S\bibinitperiod},
+           given={Eduard},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=3434bb64888cad2e68f42e04f043f454}{%
+           family={Chamberlain},
+           family_i={C\bibinitperiod},
+           given={Scott\bibnamedelima A.},
+           given_i={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {International Statistical Ecology Conference 2014; Montpellier}%
+      }
+      \strng{namehash}{ee010faa79e8e2baa3d6c6683d63b414}
+      \strng{fullhash}{ee010faa79e8e2baa3d6c6683d63b414}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ecologists use data from many sources (e.g. own sampling, governmental monitoring data, data from web-datebases, ...). All these data have a common ground: the taxonomic names of species they contain. For a data analysis a crucial data-cleaning step is to match species identities across different datasets \cite{boyle\_taxonomic\_2013}. Taxonomic data is becoming increasingly available on the web, but scientists need an easy and reproducible way to access it. We present \emph{taxize} \cite{chamberlain\_taxize:\_2013} - an open-source software package for the R language (freely available from \url{http://cran.r-project.org/web/packages/taxize/index.html}). Taxize is part of the rOpenSci Initiative (\url{http://ropensci.org/}) and currently under development. It provides simple, programmatic access to taxonomic data for 14 data sources around the web. It simplifies data-cleaning steps, like fixing taxonomic names, aggregating data to a specific taxonomic level and matching tables by species names with different taxonomic resolutions. We present this taxonomic tool belt in R and outline a suite of use cases for which taxize is ideally suited. The taxize package facilitates open and reproducible science by allowing taxonomic data collection to be done in the open-source R platform. We hope taxize will be taken up by the community and developed collaboratively.}
+      \field{title}{taxize: taxonomic search and retrieval in {R}}
+      \field{type}{Poster}
+      \field{year}{2014}
+      \verb{file}
+      \verb poster.pdf:/home/edisz/Literature/storage/E7I54ZKP/poster.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{szocs_einfluss_2011}{misc}{}
+      \name{author}{4}{uniquelist=2}{%
+        {{uniquename=0,hash=b7238c71da2e2bcf0f4e948f83d5ce79}{%
+           family={Szöcs},
+           family_i={S\bibinitperiod},
+           given={Eduard},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=6f7ef04976b515a7fe8e27a8856a74fb}{%
+           family={Kefford},
+           family_i={K\bibinitperiod},
+           given={B.\bibnamedelimi J.},
+           given_i={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=753aec58c6e75cbdef8105e3075fef7c}{%
+           family={Pettigrove},
+           family_i={P\bibinitperiod},
+           given={V.},
+           given_i={V\bibinitperiod}}}%
+        {{uniquename=0,hash=c830809570ad71b9eec6e99c1756bf76}{%
+           family={Schäfer},
+           family_i={S\bibinitperiod},
+           given={R.\bibnamedelimi B.},
+           given_i={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {SETAC GLB; Landau}%
+      }
+      \strng{namehash}{5a1f71fbeb0313c34ee0d8ad4210f3f6}
+      \strng{fullhash}{41b4826b9eb7560ba45ddbc9b14f6978}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Einfluss von {Pestiziden} und {Salinität} auf {Makroinvertebratengemeinschaften}}
+      \field{type}{Poster}
+      \field{year}{2011}
+      \verb{file}
+      \verb Poster_2011_SETAC-GLB_Landau.pdf:/home/edisz/Literature/storage/3MBF6NSE/Poster_2011_SETAC-GLB_Landau.pdf:application/pdf
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
